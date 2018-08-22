@@ -1,0 +1,26 @@
+{
+    "name": "sejo/website",
+    "description": "website",
+    "type": "library",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+          "Sejo\\Website\\": "src"
+      }  
+    },
+    "license": "MIT",
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Sejo\\Website\\Providers\\WebsiteServiceProvider"
+          ]
+      }  
+    },
+    "authors": [
+        {
+            "name": "sejo",
+            "email": "sejo@mail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
