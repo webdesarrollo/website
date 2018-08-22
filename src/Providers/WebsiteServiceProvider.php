@@ -18,7 +18,7 @@ class WebsiteServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'website');
 
         $this->publishes([
-            __DIR__.'/views' => resource_path('resources/views//website'),
+            __DIR__.'/views' => resource_path('resources/views/website'),
         ]);
     }
 
