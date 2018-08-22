@@ -14,11 +14,11 @@ class WebsiteServiceProvider extends ServiceProvider
     public function boot()
     {
         info('sejo/website bootstraped.');
-        include __DIR__ . '/routes.php';
+        include __DIR__ . 'routes.php';
         $this->loadViewsFrom(__DIR__ . '/views', 'website');
 
         $this->publishes([
-            __DIR__.'/views' => resource_path('resources/views//website'),
+            __DIR__.'/views' => resource_path('resources/views/website'),
         ]);
     }
 

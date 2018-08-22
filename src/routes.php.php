@@ -1,5 +1,5 @@
 <?php
 
 Route::get('sejo', function () {
-    return view('/sejo::website');
+    return view('/sejo::website.index');
 });
